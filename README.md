@@ -7,22 +7,21 @@
 4. Run `npm run dev` to start the development server (opens at http://localhost:3000 || http://localhost:5173).
 
 ## How to Run the Application
-Step-by-Step Guide
-Select a Customer:
+1. Select a Customer:
 Choose a customer from the dropdown (or table list). The dashboard will automatically display that customer’s reward summary.
-Default View (Last 3 Months):
+2. Default View (Last 3 Months):
 On launch, the app automatically shows data for the last 3 months based on the current month (e.g., as of November 2025, it shows Sep–Nov 2025 data).
-Filter Options:
+3. Filter Options:
 Use the Month and Year dropdowns to filter data.
-You can toggle between:
+4. You can toggle between:
 “Last 3 Months” summary, or
 A specific month/year to view that month’s details.
-Monthly Breakdown:
+5. Monthly Breakdown:
 The dashboard shows a monthly reward points summary. Click on any month to drill down into that month’s transactions.
-Transaction Details:
+6. Transaction Details:
 Displays all transactions for the selected month with amount and calculated reward points.
 Pagination is included to handle larger datasets.
-No Data Handling:
+7. No Data Handling:
 If no transactions exist for the chosen filter, the app displays a clear message — “No transactions”.
 
 ## Component Details
